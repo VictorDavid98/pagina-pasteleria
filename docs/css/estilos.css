@@ -45,9 +45,16 @@ header{
     margin: 0 auto;
     padding-top: 6px;
 }
-
-
-
+.menu-icon{
+    display: none;
+}
+ 
+/* .contenedor-header nav{
+    height: 78px;
+}
+.nav-item{
+    background:#e3ddd9;
+} */
 /* hero */
 .hero{
     padding-top: 50px;
@@ -61,7 +68,7 @@ header{
     font-size: 100px;
 }
 .hero .texto a{
-    position: relative;
+    position: static;
     padding: 10px 30px;
     border: 2px solid #ffffff;
     margin: 70px;
